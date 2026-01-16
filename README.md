@@ -1,7 +1,7 @@
 
-# MiloHax Info Bot
+# NeverHax Info Bot
 
-The **MiloHax Info Bot** is a Discord bot designed to provide quick and easy access to frequently requested information and resources related to various MiloHax projects, specifically focusing on Rock Band games. The bot responds to specific trigger phrases with predefined messages, links, and files to assist users in the Discord community.
+The **NeverHax Info Bot** is a Discord bot designed to provide quick and easy access to frequently requested information and resources related to various NeverHax projects, specifically focusing on Guitar Hero games. The bot responds to specific trigger phrases with predefined messages, links, and files to assist users in the Discord community.
 
 ## Features
 
@@ -14,8 +14,8 @@ The **MiloHax Info Bot** is a Discord bot designed to provide quick and easy acc
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/hmxmilohax/MiloHax-Info-Bot.git
-   cd MiloHax-Info-Bot
+   git clone https://github.com/MetricCepheid/nhxinfobot.git
+   cd nhxinfobot
    ```
 
 2. **Install Dependencies**:
@@ -36,7 +36,7 @@ The **MiloHax Info Bot** is a Discord bot designed to provide quick and easy acc
 4. **Run the Bot**:
    Start the bot by running:
    ```bash
-   python milohax_info_bot.py
+   python nhxinfobot.py
    ```
 
 ## Usage
@@ -50,19 +50,19 @@ The **MiloHax Info Bot** is a Discord bot designed to provide quick and easy acc
   ```json
   {
       "response1": {
-          "triggers": ["!amp", "!ampdx"],
-          "text": "Here is some information about Amplitude Deluxe.",
-          "files": ["media/amp_info.png"]
+          "triggers": ["bgh3", "bettergh3"],
+          "text": "Here is some information about Better Guitar Hero 3 Legends of Rock PC Edition.",
+          "files": ["media/bgh3_info.png"]
       }
   }
   ```
 
 ## Example Triggers
 
-- **!rb3dx**: Provides information and links related to Rock Band 3 Deluxe.
+- **!gh3dx**: Provides information and links related to Guitar Hero 3 Deluxe.
 - **!xenia**: Details about the Xenia emulator and its limitations.
-- **!ps3parental**: Instructions for PS3 users on disabling parental controls to allow custom songs.
+- **!milk**: ...
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for additional triggers or improvements to the bot, feel free to open a pull request or submit an issue.
+Contributions are more than welcome! If you have ideas for additional triggers or improvements to the bot, feel free to open a pull request or submit an issue.
