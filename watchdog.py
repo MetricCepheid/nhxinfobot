@@ -4,7 +4,6 @@ import json
 import os
 import math
 import tempfile
-from analyze_log import analyze_log_file
 import gzip
 import shutil
 import urllib.request as urlreq
@@ -15,7 +14,7 @@ from collections import defaultdict, deque, Counter
 import asyncio
 
 # --- Spam watchdog config ---
-SPAM_REPORT_CHANNEL_ID = 1461597139799900263
+SPAM_REPORT_CHANNEL_ID = 1461598998983999631
 
 SPAM_WINDOW_SECONDS = 9
 SPAM_MIN_MESSAGES = 3
@@ -93,7 +92,6 @@ def generate_session_hash():
 @client.event
 async def on_ready():
     print(f'Logged in as {client.user}!')
-    check_actions_staleness.start()   # kick off the daily loop
 
 @client.event
 async def on_message(message):
@@ -109,7 +107,7 @@ async def on_message(message):
         print(f"Spam watchdog error: {e}")
 
     # Handle publishing messages in a specific channel
-    if message.channel.id == 1379610702670463027:
+    if message.channel.id == 1118243452933644358:
         try:
             await message.publish()
             print(f"Published message {message.id} in channel {message.channel.id}")
