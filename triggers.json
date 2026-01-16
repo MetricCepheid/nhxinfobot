@@ -251,6 +251,10 @@
     	"triggers": ["alltaps", "kbstrum", "forcetaps"],
     	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, you are required to place this file into the **PLUGINS** folder.",
     	"files": ["media/ForceTapNotes.dll"]
+    },
+    "response115": {
+    	"triggers": ["vanillakbstrum"],
+    	"text": "## How to play Vanilla Guitar Hero PC on a keyboard without strumming\n**Translated version of a guide written by Naonemeu.**\n\n1. Download Xoutput - <https://github.com/csutorasa/XOutput>\n\n2. **Before opening Xoutput**, download the needed dependencies:\n  * [ViGEmBus](<https://github.com/nefarius/ViGEmBus/releases>)\n  * [DirectX](<https://www.microsoft.com/en-us/download/details.aspx?id=35>)\n  * [.NET 7 ASP.NET and Desktop runtime](<https://dotnet.microsoft.com/en-us/download/dotnet/7.0>)\n\n3. Open xoutput.exe\n4. In the 'Game Controllers' section , click 'Edit'\n\n5. In the controls window, remap your keys according to this:\n```LT is Green\nLB is Red\nRB is Yellow\nRT is Blue\nA  is Orange.\nMap D-Pad to the arrow keys\n'Back' is Star Power\n'RX' is whammy (configure your deadzone to make it not distort all the time)```\n-# RX is Right Joystick on the X axis\n\nB is back, X is Bonus and Y is Setlist.\n\nAt the end of the tab, click Start controller with the program.\n6. Click on Start to start your virtual controller, and run your game."
     }
 }
 
