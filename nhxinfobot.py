@@ -15,7 +15,7 @@ from collections import defaultdict, deque, Counter
 import asyncio
 
 # --- Spam watchdog config ---
-SPAM_REPORT_CHANNEL_ID = 961395552329818142
+SPAM_REPORT_CHANNEL_ID = 1328184167850053793
 
 SPAM_WINDOW_SECONDS = 9
 SPAM_MIN_MESSAGES = 3
@@ -98,12 +98,7 @@ with open('config.json') as config_file:
 GITHUB_TOKEN = config.get('github_token')
 HEADERS = {'Authorization': f'token {GITHUB_TOKEN}', 'Accept': 'application/vnd.github.v3+json'}
 EXTRA_REPOS = config.get("extra_repos", [])
-IGNORED_REPOS = [
-    "amp-2016-customs",
-    "AmpHelper",
-    "GH2DX-Site",
-    "MiloHax-Site "
-]
+IGNORED_REPOS = []
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -390,7 +385,7 @@ async def on_message(message):
         print(f"Spam watchdog error: {e}")
 
     # Handle publishing messages in a specific channel
-    if message.channel.id == 979895152367771668:
+    if message.channel.id == 1327304640475304019:
         try:
             await message.publish()
             print(f"Published message {message.id} in channel {message.channel.id}")
@@ -450,20 +445,20 @@ async def on_message(message):
 @tasks.loop(hours=24)
 async def check_actions_staleness():
     """
-    Checks all repos under hmxmilohax (minus IGNORED_REPOS) + any EXTRA_REPOS
+    Checks all repos under nsneverhax (minus IGNORED_REPOS) + any EXTRA_REPOS
     for their most recent GitHub Actions run. If the latest run is 89 days or older,
     reports it to the designated channel.
     """
     stale = []
 
-    # 1) List all hmxmilohax repos
-    repos_url = "https://api.github.com/users/hmxmilohax/repos?per_page=100"
+    # 1) List all nsneverhax repos
+    repos_url = "https://api.github.com/users/nsneverhax/repos?per_page=100"
     resp = requests.get(repos_url, headers=HEADERS)
     resp.raise_for_status()
 
     # build a list of (owner, name), skipping ignored
     monitored = [
-        ("hmxmilohax", r["name"])
+        ("nsneverhax", r["name"])
         for r in resp.json()
         if r["name"] not in IGNORED_REPOS
     ]
@@ -473,7 +468,7 @@ async def check_actions_staleness():
         if "/" in repo_full:
             owner, name = repo_full.split("/", 1)
         else:
-            owner, name = "hmxmilohax", repo_full
+            owner, name = "nsneverhax", repo_full
         if (owner, name) not in monitored:
             monitored.append((owner, name))
 
@@ -501,7 +496,7 @@ async def check_actions_staleness():
             continue
 
         if (datetime.utcnow() - created).days >= 89:
-            display = name if owner == "hmxmilohax" else f"{owner}/{name}"
+            display = name if owner == "nsneverhax" else f"{owner}/{name}"
             stale.append((display, created.date(), latest["html_url"]))
 
     # 4) Build and send a pretty embed
