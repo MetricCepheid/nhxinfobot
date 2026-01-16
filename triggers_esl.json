@@ -74,6 +74,12 @@
         "text": "-# **NEEDS TO BE TRANSLATED**",
         "link": "response90",
         "files": []
+    },
+    "response114": {
+    	"triggers": ["alltaps", "kbstrum"],
+    	"text": "-# **NEEDS TO BE TRANSLATED**",
+    	"link": "response114",
+    	"files": []
     }
 }
 

@@ -245,7 +245,12 @@
     },
     "response113": {
     	"triggers": ["skillissuegh3"],
-    	"text": "https://i.imgur.com/CVF89yK.gif"
+    	"text": "https://i.imgur.com/7xjdZTi.gif"
+    },
+    "response114": {
+    	"triggers": ["alltaps", "kbstrum"],
+    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, you are required to place this file into the **PLUGINS** folder.",
+    	"files": ["media/ForceTapNotes.dll"]
     }
 }
 
