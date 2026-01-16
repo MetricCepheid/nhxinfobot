@@ -24,7 +24,7 @@ In a 9 second timespan, if the same exact message is sent in 3 channels, the use
 3. **Configuration**:
    - Make sure you open the **watchdog.py** to edit where the messages for when a bot gets banned are sent.
 
-4. **Run the Bot**:\n
+4. **Run the Bot**:<br />
    Start the bot by running:
    ```bash
    python watchdog.py
