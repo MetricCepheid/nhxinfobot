@@ -19,13 +19,13 @@
     },
     "response38": {
         "triggers": ["skillissue", "calibration", "calibrating", "calibrate"],
-        "text": "No es posible calibrar autom√°ticamente en BetterGH3 por culpa de separar la calibraci√≥n de audio y v√≠deo.\nNecesitas calibrar manualmente.\nRecuerda:\n* Si pega abajo de la linea = esta muy alta\n* Si pega arriba de la linea = esta muy baja."
+        "text": "No es posible calibrar autom·ticamente en BetterGH3 por culpa de separar la calibraciÛn de audio y vÌdeo.\nNecesitas calibrar manualmente.\nRecuerda:\n* Si pega abajo de la linea = esta muy alta\n* Si pega arriba de la linea = esta muy baja."
     },
     "response41": {
         "triggers": ["poop", "caca"],
         "text": "",
         "link": "response41",
-        "text": "https://metriccepheid.online/media/caca.mp4"
+        "text": "-# [caca.mp4](https://metriccepheid.online/media/caca.mp4)"
     },
     "response44": {
         "triggers": ["themeats", "meat", "meats", "arbys", "arbyshasthemeats"],
@@ -47,7 +47,7 @@
     },
     "response50": {
         "triggers": ["xenia"],
-        "text": "Xenia no es recomendado porque tiene varios problemas con sincronizaci√≥n.",
+        "text": "Xenia no es recomendado porque tiene varios problemas con sincronizaciÛn.",
         "link": "response50",
         "files": []
     },
@@ -65,15 +65,15 @@
     },
     "response90": {
         "triggers": ["milohax", "harmonix", "hmx", "mhx"],
-        "text": "## MiloHax\nQuieres mods para Guitar Hero de Harmonix o Rock Band?\n√önete al Discord de MiloHax aqu√≠:\nhttps://discord.gg/milohax",
+        "text": "## MiloHax\nQuieres mods para Guitar Hero de Harmonix o Rock Band?\n⁄nete al Discord de MiloHax aquÌ:\nhttps://discord.gg/milohax",
         "link": "response90",
         "files": []
     },
     "response114": {
         "triggers": ["alltaps", "kbstrum", "forcetaps"],
-        "text": "Si quieres jugar BetterGH3 o GH3+ con un teclado, descarga y coloca este archivo `.dll` a la carpeta de `PLUGINS`.",
+        "text": "Si quieres jugar BetterGH3 o GH3+ con un teclado, descarga y coloca este archivo `.dll` a la carpeta de `PLUGINS`.\n-# [tapplugin.gif](https://metriccepheid.online/media/tapplugin.gif)",
         "link": "response114",
-        "files": ["https://metriccepheid.online/media/tapplugin.gif", "media/ForceTapNotes.dll"]
+        "files": ["media/ForceTapNotes.dll"]
     }
 }
 

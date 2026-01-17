@@ -12,7 +12,7 @@
     "response4": {
         "triggers": ["arguing"],
         "text": "",
-        "files": "https://metriccepheid.online/media/arguing.mp4"
+        "text": "-# [arguing.mp4](https://metriccepheid.online/media/arguing.mp4)"
     },
     "response10": {
         "triggers": ["encore"],
@@ -22,12 +22,12 @@
     "response15": {
         "triggers": ["hammers"],
         "text": "",
-        "files": "https://metriccepheid.online/media/hammers.mp4"
+        "text": "-# [hammers.mp4](https://metriccepheid.online/media/hammers.mp4)"
     },
     "response19": {
         "triggers": ["lore"],
         "text": "",
-        "files": "https://metriccepheid.online/media/lore.mov"
+        "text": "-# [lore.mov](https://metriccepheid.online/media/lore.mov)"
     },
     "response24": {
         "triggers": ["nautilus", "c3contools", "c3tools"],
@@ -68,12 +68,12 @@
     "response41": {
         "triggers": ["poop", "focus"],
         "text": "",
-        "files": "https://metriccepheid.online/media/focus.mp4"
+        "text": "-# [focus.mp4](https://metriccepheid.online/media/focus.mp4)"
     },
     "response42": {
         "triggers": ["hiring"],
         "text": "",
-        "files": "https://metriccepheid.online/media/focus-1.mp4"
+        "text": "-# [focus-1.mp4](https://metriccepheid.online/media/focus-1.mp4)"
     },
     "response44": {
         "triggers": ["themeats", "meat", "meats", "arbys", "arbyshasthemeats"],
@@ -88,7 +88,7 @@
     "response46": {
         "triggers": ["usher"],
         "text": "",
-        "files": "https://metriccepheid.online/media/usher_1.mp4"
+        "text": "-# [usher.mp4](https://metriccepheid.online/media/usher_1.mp4)"
     },
     "response47": {
         "triggers": ["usrdir"],
@@ -108,7 +108,7 @@
     "response51": {
         "triggers": ["piss"],
         "text": "",
-        "files": "https://metriccepheid.online/media/piss.mp4"
+        "text": "-# [piss.mp4](https://metriccepheid.online/media/piss.mp4)"
     },
     "response52": {
         "triggers": ["rb3decomp"],
@@ -123,17 +123,17 @@
     "response62": {
         "triggers": ["fig"],
         "text": "",
-        "files": "https://metriccepheid.online/media/fig.mp4"
+        "text": "-# [fig.mp4](https://metriccepheid.online/media/fig.mp4)"
     },
     "response68": {
         "triggers": ["milk"],
         "text": "",
-        "files": "https://metriccepheid.online/media/milk.mp4"
+        "text": "-# [milk.mp4](https://metriccepheid.online/media/milk.mp4)"
     },
     "response69": {
         "triggers": ["pr"],
         "text": "",
-        "files": "https://metriccepheid.online/media/plsapprovepr.mp4"
+        "text": "-# [plsapprovepr.mp4](https://metriccepheid.online/media/plsapprovepr.mp4)"
     },
     "response71": {
         "triggers": ["goodluck"],
@@ -173,7 +173,7 @@
     "response87": {
         "triggers": ["touchgrass", "grass"],
         "text": "",
-        "files": "https://metriccepheid.online/media/grass.mp4"
+        "text": "-# [grass.mp4](https://metriccepheid.online/media/grass.mp4)"
     },
     "response90": {
         "triggers": ["milohax", "harmonix", "hmx", "mhx"],
@@ -188,7 +188,7 @@
     "response94": {
         "triggers": ["leakers"],
         "text": "",
-        "files": "https://metriccepheid.online/media/leakers.mp4"
+        "text": "-# [leakers.mp4](https://metriccepheid.online/media/leakers.mp4)"
     },
     "response95": {
         "triggers": ["rcm"],
@@ -218,17 +218,17 @@
     "response108": {
         "triggers": ["modern", "moderngaming", "dogshit"],
         "text": "",
-        "files": "https://metriccepheid.online/media/dogshit.mp4"
+        "text": "-# [dogshit.mp4](https://metriccepheid.online/media/dogshit.mp4)"
     },
     "response109": {
         "triggers": ["fogjuicerb3"],
         "text": "",
-        "files": "https://metriccepheid.online/media/here_come_the_fog_juice.mov"
+        "text": "-# [here comes the fog juice.mov](https://metriccepheid.online/media/here_come_the_fog_juice.mov)"
     },
     "response110": {
         "triggers": ["fogjuice", "fog", "vape"],
         "text": "",
-        "files": "https://metriccepheid.online/media/fog.mp4"
+        "text": "-# [fog.mp4](https://metriccepheid.online/media/fog.mp4)"
     },
     "response111": {
     	"triggers": ["ping"],
@@ -244,12 +244,16 @@
     },
     "response114": {
     	"triggers": ["alltaps", "kbstrum", "forcetaps"],
-    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll file` and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/tapplugin.gif)",
+    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/tapplugin.gif)",
     	"files": ["media/ForceTapNotes.dll"]
     },
     "response115": {
     	"triggers": ["vanillakbstrum"],
     	"text": "## How to play Vanilla Guitar Hero PC on a keyboard without strumming\n**Translated version of a guide written by Naonemeu.**\n\n1. Download Xoutput - <https://github.com/csutorasa/XOutput>\n\n2. **Before opening Xoutput**, download the needed dependencies:\n  * [ViGEmBus](<https://github.com/nefarius/ViGEmBus/releases>)\n  * [DirectX](<https://www.microsoft.com/en-us/download/details.aspx?id=35>)\n  * [.NET 7 ASP.NET and Desktop runtime](<https://dotnet.microsoft.com/en-us/download/dotnet/7.0>)\n\n3. Open xoutput.exe\n4. In the 'Game Controllers' section , click 'Edit'\n\n5. In the controls window, remap your keys according to this:\n```LT is Green\nLB is Red\nRB is Yellow\nRT is Blue\nA  is Orange.\nMap D-Pad to the arrow keys\n'Back' is Star Power\n'RX' is whammy (configure your deadzone to make it not distort all the time)```\n-# RX is Right Joystick on the X axis\n\nB is back, X is Bonus and Y is Setlist.\n\nAt the end of the tab, click Start controller with the program.\n6. Click on Start to start your virtual controller, and run your game."
+    },
+    "response116": {
+        "triggers": ["ghpcsave"],
+        "text": "The GHPC save is located in this directory\n``C:\\Users\\<username>\\Documents\\Aspyr``"
     }
 }
 
