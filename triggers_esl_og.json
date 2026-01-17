@@ -1,10 +1,4 @@
 {
-    "response18": {
-        "triggers": ["log", "logs", "dejaver", "analizar", "historial"],
-        "text": "Para mandar un historial, encuentra el problema y,\nen la pantalla principal de RPCS3, ve a `File` > `Exit and Save Log`.\nGuarda el archivo donde sea conveniente y mandalo con un mensaje de `!log` para que el bot lo pueda ver.",
-        "link": "response18",
-        "files": ["media/savelog.gif"]
-    },
     "response24": {
         "triggers": ["nautilus", "c3contools", "c3tools"],
         "text": "# Nautilus (la version mas actual)\nDescargala de [GitHub](<https://github.com/trojannemo/Nautilus/releases/latest>) o de [la pagina de Nemo](<https://nemosnautilus.com/nautilus/>)\nEntra al servidor de Discord aqui: https://discord.gg/ydGmRyKGVW",
