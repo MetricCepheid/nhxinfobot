@@ -35,7 +35,7 @@
         "triggers": ["poop", "caca"],
         "text": "",
         "link": "response41",
-        "files": ["media/caca.mp4"]
+        "text": "-# [caca.mp4](https://metriccepheid.online/media/caca.mp4)"
     },
     "response44": {
         "triggers": ["themeats", "meat", "meats", "arbys", "arbyshasthemeats"],
@@ -81,9 +81,9 @@
     },
     "response114": {
         "triggers": ["alltaps", "kbstrum", "forcetaps"],
-        "text": "Si quieres jugar BetterGH3 o GH3+ con un teclado, descarga y coloca este archivo `.dll` a la carpeta de `PLUGINS`.",
+        "text": "Si quieres jugar BetterGH3 o GH3+ con un teclado, descarga y coloca este archivo `.dll` a la carpeta de `PLUGINS`.\n\n-# [tapplugin.gif](https://metriccepheid.online/media/tapplugin.gif)",
         "link": "response114",
-        "files": ["media/tapplugin.gif", "media/ForceTapNotes.dll"]
+        "files": ["media/ForceTapNotes.dll"]
     },
     "response116": {
         "triggers": ["ghpcpartida", "save", "partida"],
