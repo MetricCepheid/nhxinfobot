@@ -81,7 +81,7 @@
     },
     "response44": {
         "triggers": ["themeats", "meat", "meats", "arbys", "arbyshasthemeats"],
-        "text": "Looking for some Arbys, including rare oddities, goodies, and more?\nVisit the link in the image.\nNeed some songs? Use `!songs` instead.",
+        "text": "Looking for some Arbys, including rare oddities, goodies, and more?\nVisit the link in the image.",
         "files": ["media/themeats.png"]
     },
     "response45": {
