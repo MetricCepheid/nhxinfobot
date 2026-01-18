@@ -12,7 +12,7 @@
     },
     "response26": {
         "triggers": ["onyx"],
-        "text": "Ferramenta de música de jogo Onyx\n<#964723219280052284>\nhttps://github.com/mtolly/onyx/releases",
+        "text": "Ferramenta de música de jogo, Onyx\n<#964723219280052284>\nhttps://github.com/mtolly/onyx/releases",
         "link": "response26",
         "files": []
     },
@@ -24,12 +24,12 @@
     },
     "response38": {
         "triggers": ["skillissue", "calibration", "calibrating", "calibrate"],
-        "text": "Se você está jogando BetterGH3 e não consegue achar o ''calibrate'', isso é devido às restrições do jogo não permitindo calibração automática com o áudio e vídeo sendo separadas.\nVocê terá que calibrar manualmente, você pode ver este vídeo como fazer isso.\n\nhttps://www.youtube.com/watch?v=EFwn-2V_vIQ",
+        "text": "Se você está jogando BetterGH3 e não consegue achar o ''calibrate'', isso é devido às restrições do jogo não permitindo calibração automática com o áudio e vídeo sendo separadas.\nVocê terá que calibrar manualmente, você pode ver este vídeo como fazer isso.\nDica: se acertar a nota abaixo da linha = está muito alta.\nSe acertar abaixo = está muito baixa.",
         "link": "response38"
     },
     "response44": {
         "triggers": ["themeats", "meat", "meats", "arbys", "arbyshasthemeats"],
-        "text": "Looking for some Arbys, including rare oddities, goodies, and more?\nVisit the link in the image.\nNeed some songs? Use `!songs` instead.",
+        "text": "Procurando por uns joguinhos raros? Ou só uma carne da Arbys?\nVisite o link na imagem.",
         "link": "response44",
         "files": ["media/themeats.png"]
     },
@@ -82,7 +82,7 @@
     },
     "response116": {
         "triggers": ["ghpcsave"],
-        "text": "O save do Guitar Hero no PC está localizado nesse diretório.\n``C:\\Users\\<username>\\Documents\\Aspyr``",
+        "text": "O save do Guitar Hero no PC está localizado nesse diretório.\n``C:\\Usuarios\\<usuario>\\Documentos\\Aspyr``",
         "link": "response116"
     }
 }
