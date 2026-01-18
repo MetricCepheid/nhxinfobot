@@ -71,7 +71,7 @@
     },
     "response111": {
     	"triggers": ["ping"],
-    	"text": "pong!",
+    	"text": "pong! (pt-BR)",
         "link": "response111"
     },
     "response114": {
