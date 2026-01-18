@@ -1,71 +1,71 @@
 {
 	"response1": {
 		"triggers": ["spreadsheet", "clones", "clonespreadsheet"],
-		"text": "Check out this spreadsheet created by MetricCepheid that preserves old/new and other clones that may have never seen the light of day before.\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGN1hhuxyi6499E9Ens_PYcIHPYii8/view",
+		"text": "Esta planilha criada pelo MetricCepheid preserva os novos e os antigos clones do Guitar Hero, até mesmos aqueles que nunca viram a luz do dia.\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGN1hhuxyi6499E9Ens_PYcIHPYii8/view",
 		"link": "response1"
 	},
     "response24": {
         "triggers": ["nautilus", "c3contools", "c3tools"],
-        "text": "# Latest Nautilus\nGet it from [GitHub](<https://github.com/trojannemo/Nautilus/releases/latest>) or from [Nemo's Nautilus](<https://nemosnautilus.com/nautilus/>)\nJoin the Discord server here: https://discord.gg/ydGmRyKGVW",
+        "text": "# Última versão do Nautilus, o seu [GitHub](<https://github.com/trojannemo/Nautilus/releases/latest>) ou do [Nemo](<https://nemosnautilus.com/nautilus/>) \nPode se juntar ao servidor do Discord aqui: https://discord.gg/ydGmRyKGVW",
         "link": "response24",
         "files": []
     },
     "response26": {
         "triggers": ["onyx"],
-        "text": "# Onyx Music Game Toolkit\n<#964723219280052284>\nhttps://github.com/mtolly/onyx/releases",
+        "text": "Ferramenta de música de jogo, Onyx\n<#964723219280052284>\nhttps://github.com/mtolly/onyx/releases",
         "link": "response26",
         "files": []
     },
     "response28": {
         "triggers": ["quickconvert", "batchprocess", "recompile"],
-        "text": "Batch recompile, Load a song, and Batch process, all rebuild the songs from scratch, losing all metadata originally associated with the song.\nThis means the song will not be correct for leaderboards, online play, or dx song upgrades (harmonies, pro upgrades, rb4 chart updates).\n**Never recompile songs already existing in Rock Band format back to Rock Band.**",
+        "text": "Um arquivo .bat para recompilar, carregar a música e o .bat para processar, todos recompilam a música do zero, assim perdendo todo metadado da música.\nIsso quer dizer que a música não vai estar correta para os placares, jogatina online ou atualizações da música (harmonias, instrumentos pro, atualizações do chart do rb4.)\n**Em hipótese alguma, nunca recompila músicas que já existem no formato Rock Band de volta pro Rock Band.**",
         "link": "response28",
         "files": ["media/quickconvert.png", "media/quickconvert2.png"]
     },
     "response38": {
         "triggers": ["skillissue", "calibration", "calibrating", "calibrate"],
-        "text": "If you are playing BetterGH3 and you can't find the ''calibrate'', this is due to game restrictions not allowing automatic calibration with the audio and video lag options being separate.\nYou will have to calibrate manually, you can watch this video to learn how.\n\nhttps://www.youtube.com/watch?v=EFwn-2V_vIQ",
+        "text": "Se você está jogando BetterGH3 e não consegue achar o ''calibrate'', isso é devido às restrições do jogo não permitindo calibração automática com o áudio e vídeo sendo separadas.\nVocê terá que calibrar manualmente, você pode ver este vídeo como fazer isso.\nDica: se acertar a nota abaixo da linha = está muito alta.\nSe acertar abaixo = está muito baixa.",
         "link": "response38"
     },
     "response44": {
         "triggers": ["themeats", "meat", "meats", "arbys", "arbyshasthemeats"],
-        "text": "Looking for some Arbys, including rare oddities, goodies, and more?\nVisit the link in the image.",
+        "text": "Procurando por uns joguinhos raros? Ou só uma carne da Arbys?\nVisite o link na imagem.",
         "link": "response44",
         "files": ["media/themeats.png"]
     },
     "response45": {
-        "triggers": ["thesign", "TRANSLATE_HERE"],
+        "triggers": ["thesign", "aplaca"],
         "text": "",
         "link": "response45",
         "files": ["media/thesignes.png"]
     },
     "response49": {
         "triggers": ["yarg"],
-        "text": "Also try YARG, a Rock Band inspired Unity based rhythm game!\nhttps://discord.gg/yarg\nhttps://yarg.in",
+        "text": "Experimente YARG, um jogo rítmico inspirado pelo Rock Band!\nhttps://discord.gg/yarg\nhttps://yarg.in",
         "link": "response49",
         "files": []
     },
     "response50": {
         "triggers": ["xenia"],
-        "text": "Xenia is not recommended at all for Neversoft rhythm games due to the XMA decoding not properly being implemented and performance issues.",
+        "text": "Xenia não é recomendado para jogar os jogos rítmicos da Neversoft, devido à má implementação da decodificação do XMA e problemas de performance.",
         "link": "response50",
         "files": []
     },
     "response71": {
-        "triggers": ["goodluck", "TRANSLATE_HERE"],
+        "triggers": ["goodluck", "boasorte"],
         "text": "",
         "link": "response71",
         "files": ["media/buenasuerte.png"]
     },
     "response76": {
         "triggers": ["caches"],
-        "text": "Your cache files may become problematic as RPCS3 updates to improve emulation quality. You can force RPCS3 to generate new ones by removing them.\nSimply right click Rock Band 3 in RPCS3's game list then go to `Remove` and select which cache to remove. You can also remove all caches.",
+        "text": "Os seus arquivos cache podem se corromper quando o RPCS3 atualizar para melhorar a qualidade da emulação. Você pode forçar o RPCS3 a gerar novos arquivos removendo o cache.\nSimplesmente clique com o botão direito no Rock Band 3 na lista de jogos do RPCS3, clique em `Remove` e selecione qual cache deseja remover. Também pode ser todos os arquivos.",
         "link": "response76",
         "files": ["media/caches.png"]
     },
     "response90": {
         "triggers": ["milohax", "harmonix", "hmx", "mhx"],
-        "text": "## MiloHax\nLooking for mods and info relating to Harmonix Guitar Hero/Rock Band games?\nJoin the MiloHax Discord here:\nhttps://discord.gg/milohax",
+        "text": "## MiloMax\nProcurando por mods e informações relevantes para os jogos Guitar Hero/Rock Band da Harmonix?\nJunte-se ao Discord do MiloMax aqui:\nhttps://discord.gg/milohax",
         "link": "response90",
         "files": []
     },
@@ -76,13 +76,13 @@
     },
     "response114": {
         "triggers": ["alltaps", "kbstrum", "forcetaps"],
-        "text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/tapplugin.gif)",
+        "text": "Se você deseja jogar BetterGH3 ou GH3+ no PC com o seu teclado, baixe esta `.dll` e arraste para a pasta `PLUGINS`.\n-# [tapplugin.gif](https://metriccepheid.online/media/tapplugin.gif)",
     	"link": "response114",
         "files": ["media/ForceTapNotes.dll"]
     },
     "response116": {
         "triggers": ["ghpcsave"],
-        "text": "The GH PC save is located in this directory\n``C:\\Users\\<username>\\Documents\\Aspyr``",
+        "text": "O save do Guitar Hero no PC está localizado nesse diretório.\n``C:\\Usuarios\\<usuario>\\Documentos\\Aspyr``",
         "link": "response116"
     }
 }
