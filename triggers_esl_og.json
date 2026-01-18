@@ -4,6 +4,11 @@
 		"text": "Mira esta página creada por MetricCepheid para ver clones viejos y nuevos que fueron preservados.\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGN1hhuxyi6499E9Ens_PYcIHPYii8/view",
 		"link": "response1"
 	},
+    "response5": {
+    	"triggers": ["warehouse", "wh_register", "wh-register"],
+    	"text": "-#**NEEDS TO BE TRANSLATED**\n**Wrong server!**\n\nFor any questions or comments about GH3PC online, please join the Warehouse server.\nhttps://discord.gg/fwkQmPGtfa",
+    	"link": "response5"
+    },
     "response24": {
         "triggers": ["nautilus", "c3contools", "c3tools"],
         "text": "# Nautilus (la version mas actual)\nDescargala de [GitHub](<https://github.com/trojannemo/Nautilus/releases/latest>) o de [la pagina de Nemo](<https://nemosnautilus.com/nautilus/>)\nEntra al servidor de Discord aqui: https://discord.gg/ydGmRyKGVW",
